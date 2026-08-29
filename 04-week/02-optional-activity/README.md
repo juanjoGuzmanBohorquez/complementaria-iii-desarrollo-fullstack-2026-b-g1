@@ -1,15 +1,30 @@
-📊 Smart Attendance Management System - CORHUILA
+# 📊 Smart Attendance Management System — CORHUILA
 
-📌 Overview
+> A lightweight mobile-web application designed for real-time academic attendance tracking, proactive risk alerts, and seamless class management.
 
-This mobile-web application is designed so that both teachers and students can easily track class attendance in real-time. Teachers can log into the system to manage their assigned subjects and record student attendance digitally. Meanwhile, students can monitor their accumulated absences and overall academic status for each course. Furthermore, the system triggers proactive warning alerts to prevent students from exceeding the critical 30% absence limit, helping them avoid failing the subject. To fetch class and student records dynamically, the application consumes a public REST API (JSONPlaceholder) using JavaScript's native fetch() method. Finally, the user interface robustly handles all three application states: displaying a loading spinner during data retrieval, rendering the student list upon success, and showing an error message with a retry option if the network request fails.
+---
 
-🚀 Key Features
+## 📌 Overview
 
-👨‍🏫 Teacher View: Class list management and digital attendance logging.
+| Attribute | Details |
+| --- | --- |
+| **Institution** | Corporación Universitaria del Huila (CORHUILA) |
+| **Target Audience** | Academic Faculty & Enrolled Students |
+| **Primary Goal** | Real-time attendance logging and 30% threshold failure prevention |
+| **Integration** | Public REST API via Native JavaScript `fetch()` |
 
-👨‍🎓 Student View: Attendance tracking with dynamic progress bars.
+This mobile-web application enables instructors and students to streamline class attendance management in real-time. Teachers can manage assigned subjects and register daily attendance digitally, while students gain immediate visibility over their accumulated absences and overall academic standing.
 
-⚠️ Smart Alerts: Prevention notifications at 20%, 25%, and critical warning at 30%.
+To minimize academic risk, the system automatically triggers proactive warning alerts before students hit the critical **30% absence limit**, helping prevent automatic course failure.
 
-🔄 API Integration: Asynchronous data fetching with complete UI state management (Loading, Success, Error).
+---
+
+## 🚀 Key Features
+
+* 👨‍🏫 **Teacher Management Module:** Full subject overview and digital attendance logging workflow.
+* 👨‍🎓 **Student Progress Dashboard:** Absence tracking backed by dynamic visual progress bars.
+* ⚠️ **Smart Alert System:** Multi-stage warning alerts triggered at **20%**, **25%**, and a critical lock warning at **30%**.
+* 🔄 **Asynchronous Data Handling:** Native `fetch()` API consumption paired with robust UI state management.
+
+
+
